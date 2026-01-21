@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Visual - Paparazzi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="./app.js"></script>
+    <meta name="viewport">
+</head>
+
+<body>
+    <div class="topbar"><a href="index.html"><img src="./assets/others/setaesquerda.png" alt="."></a>
+        <h1 id="restaurantes">PAINEL DO ADMINISTRADOR</h1>
+    </div>
+
+    <div class="container-fluid">
+        <div class="adminpainel">
+            <p>CONTROLES</p>
+            <a href="./agendamentosrestaurantes.html"><img src="./assets/correria/BOTOES/agenrestaurantes.png"
+                    alt=""></a>
+            <a href="./agendamentoslimpeza.html"> <img src="./assets/correria/BOTOES/agenlimpeza.png" alt=""></a>
+            <p>RELATÓRIO DE CLIQUES</p>
+            <a href="./insightsdosistema.html"><img src="./assets/correria/BOTOES/insightssistema.png" alt=""></a>
+            <p>AVALIAÇÕES DOS USUÁRIOS<br>(HOTEL E RESTAURANTE)</p>
+            <a href="./avaliacoes.html"><img src="./assets/correria/BOTOES/avaliacoes.png" alt=""></a>
+            <img src="./assets/others/logo.png" alt="">
+        </div>
+        <style>
+            .adminpainel {
+                display: flex;
+                flex-direction: column;
+                gap: 100px;
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px;
+                text-align: center;
+            }
+
+            .adminpainel a img {
+                height: 100px;
+            }
+
+            .adminpainel img {
+                height: 150px;
+            }
+
+            .adminpainel p {
+                font-size: 30pt;
+            }
+        </style>
+    </div>
+</body>
+
+</html>
