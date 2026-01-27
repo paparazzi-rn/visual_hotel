@@ -40,7 +40,7 @@ function ingles() {
         cliqueabaixo.innerText = 'click on the icons below';    //ALTERAR ENTRE AS ASPAS
 
         desc1.innerText = 'Special Offers';    //ALTERAR ENTRE AS ASPAS
-        desc2.innerText = 'Paparazzi Photography';    //ALTERAR ENTRE AS ASPAS
+        desc2.innerText = 'You won a gift';    //ALTERAR ENTRE AS ASPAS
         desc3.innerText = 'Gastronomy';    //ALTERAR ENTRE AS ASPAS
 
         desc4.innerText = 'Leisure area';    //ALTERAR ENTRE AS ASPAS
@@ -122,7 +122,7 @@ function espanhol() {
         cliqueabaixo.innerText = 'haga clic en los íconos abajo';   //ALTERAR ENTRE AS ASPAS
 
         desc1.innerText = 'Promociones';    //ALTERAR ENTRE AS ASPAS
-        desc2.innerText = 'Paparazzi Fotografia';    //ALTERAR ENTRE AS ASPAS
+        desc2.innerText = 'Ganaste un regalo';    //ALTERAR ENTRE AS ASPAS
         desc3.innerText = 'Gastronomía';    //ALTERAR ENTRE AS ASPAS
 
         desc4.innerText = 'Área de ocio';    //ALTERAR ENTRE AS ASPAS
@@ -205,7 +205,7 @@ function portugues() {
         cliqueabaixo.innerText = 'clique nos ícones abaixo';    //ALTERAR ENTRE AS ASPAS
 
         desc1.innerText = 'Promoções';    //ALTERAR ENTRE AS ASPAS
-        desc2.innerText = 'Paparazzi Fotografia';    //ALTERAR ENTRE AS ASPAS
+        desc2.innerText = 'Você Ganhou';    //ALTERAR ENTRE AS ASPAS
         desc3.innerText = 'Gastronomia';    //ALTERAR ENTRE AS ASPAS
 
         desc4.innerText = 'Área de lazer';    //ALTERAR ENTRE AS ASPAS
@@ -257,3 +257,4 @@ function fechar() {
 document.addEventListener("DOMContentLoaded", function () {
     return portugues()
 });
+
