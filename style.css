@@ -108,6 +108,27 @@ body {
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
+#paparazzifotografia {
+        animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
 .descrição {
     width: 326px;
     text-align: center;
@@ -372,4 +393,5 @@ body {
     padding: 10px;
     bottom: 30px;
     right: 30px;
+
 }
