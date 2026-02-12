@@ -39,25 +39,20 @@ function ingles() {
         bemvindo.innerText = 'welcome!';    //ALTERAR ENTRE AS ASPAS
         cliqueabaixo.innerText = 'click on the icons below';    //ALTERAR ENTRE AS ASPAS
 
-        desc1.innerText = 'Special Offers';    //ALTERAR ENTRE AS ASPAS
-        desc2.innerText = 'You won a gift';    //ALTERAR ENTRE AS ASPAS
-        desc3.innerText = 'Gastronomy';    //ALTERAR ENTRE AS ASPAS
+        desc1.innerText = 'Information';    //ALTERAR ENTRE AS ASPAS
+        desc2.innerText = 'You got a gift';    //ALTERAR ENTRE AS ASPAS
+        desc3.innerText = 'Schedules';    //ALTERAR ENTRE AS ASPAS
 
-        desc4.innerText = 'Leisure area';    //ALTERAR ENTRE AS ASPAS
-        desc5.innerText = 'Information';    //ALTERAR ENTRE AS ASPAS
-        desc6.innerText = 'Git Shop';    //ALTERAR ENTRE AS ASPAS
+        desc4.innerText = 'Room Service Menu';    //ALTERAR ENTRE AS ASPAS
+        desc5.innerText = 'Restaurante Menu';    //ALTERAR ENTRE AS ASPAS
+        desc6.innerText = 'WhatsApp';    //ALTERAR ENTRE AS ASPAS
 
-        desc7.innerText = 'Tours';    //ALTERAR ENTRE AS ASPAS
-        desc8.innerText = 'Cocierge';    //ALTERAR ENTRE AS ASPAS
-        desc9.innerText = 'Spotify';    //ALTERAR ENTRE AS ASPAS
+        desc7.innerText = 'Weather';    //ALTERAR ENTRE AS ASPAS
+        desc8.innerText = 'Reservation With Discount COUPON: VISU2026';    //ALTERAR ENTRE AS ASPAS
+        desc9.innerText = 'Minibar';    //ALTERAR ENTRE AS ASPAS
 
-        desc10.innerText = 'Minibar';    //ALTERAR ENTRE AS ASPAS
+        desc10.innerText = 'Internet';    //ALTERAR ENTRE AS ASPAS
         desc11.innerText = 'Cleaning';    //ALTERAR ENTRE AS ASPAS
-        desc12.innerText = 'WhatsApp';    //ALTERAR ENTRE AS ASPAS
-
-        desc13.innerText = 'Restaurant';    //ALTERAR ENTRE AS ASPAS
-        desc14.innerText = 'Schedule';    //ALTERAR ENTRE AS ASPAS
-        desc15.innerText = 'How To Get Here';    //ALTERAR ENTRE AS ASPAS
 
         resgatar.innerText = 'rescue';    //ALTERAR ENTRE AS ASPAS
         ganhoupresente.innerText = 'you got a gift!';    //ALTERAR ENTRE AS ASPAS
@@ -77,6 +72,26 @@ function ingles() {
         limparquarto.innerText = 'Clean the Room';    //ALTERAR ENTRE AS ASPAS
         naopertube.innerText = 'Do Not Disturb';    //ALTERAR ENTRE AS ASPAS
         precisotoalha.innerText = 'I Need Towels';    //ALTERAR ENTRE AS ASPAS
+    }
+
+    // POPUPS
+
+    const popup01title = document.getElementById('popuptitulotexto01')
+    const popup01text = document.getElementById('popuptexto01')
+
+    const popup02title = document.getElementById('popuptitulotexto02')
+    const popup02text = document.getElementById('popuptexto02')
+
+    const popup03title = document.getElementById('popuptitulotexto03')
+    const popup03text = document.getElementById('popuptexto03')
+
+    if (popup01title, popup01text, popup02title, popup02text, popup03title, popup03text) {
+        popup01title.innerText = 'MINIBAR';
+        popup01text.innerText = '4 still waters R$ 4,00 each';
+        popup02title.innerText = 'INTERNET';
+        popup02text.innerText = 'Network: Visual Praia Hotel | Password: vphpraianatal';
+        popup03title.innerText = 'CLEANING';
+        popup03text.innerText = 'Daily From 08:00 AM to 5:00 PM';
     }
 }
 
@@ -121,28 +136,23 @@ function espanhol() {
         bemvindo.innerText = '¡bienvenido!';    //ALTERAR ENTRE AS ASPAS
         cliqueabaixo.innerText = 'haga clic en los íconos abajo';   //ALTERAR ENTRE AS ASPAS
 
-        desc1.innerText = 'Promociones';    //ALTERAR ENTRE AS ASPAS
-        desc2.innerText = 'Ganaste un regalo';    //ALTERAR ENTRE AS ASPAS
-        desc3.innerText = 'Gastronomía';    //ALTERAR ENTRE AS ASPAS
+        desc1.innerText = 'Información';    //ALTERAR ENTRE AS ASPAS
+        desc2.innerText = 'Has Ganado';    //ALTERAR ENTRE AS ASPAS
+        desc3.innerText = 'Horarios';    //ALTERAR ENTRE AS ASPAS
 
-        desc4.innerText = 'Área de ocio';    //ALTERAR ENTRE AS ASPAS
-        desc5.innerText = 'Información';    //ALTERAR ENTRE AS ASPAS
-        desc6.innerText = 'Tienda de regalos';    //ALTERAR ENTRE AS ASPAS
+        desc4.innerText = 'Menú Room Service';    //ALTERAR ENTRE AS ASPAS
+        desc5.innerText = 'Menú Restaurante';    //ALTERAR ENTRE AS ASPAS
+        desc6.innerText = 'WhatsApp';    //ALTERAR ENTRE AS ASPAS
 
-        desc7.innerText = 'Excursiones';    //ALTERAR ENTRE AS ASPAS
-        desc8.innerText = 'Conserjería';    //ALTERAR ENTRE AS ASPAS
-        desc9.innerText = 'Spotify';    //ALTERAR ENTRE AS ASPAS
+        desc7.innerText = 'Clima';    //ALTERAR ENTRE AS ASPAS
+        desc8.innerText = 'Reserva con descuento CUPÓN: VISU2026';    //ALTERAR ENTRE AS ASPAS
+        desc9.innerText = 'Minibar';    //ALTERAR ENTRE AS ASPAS
 
-        desc10.innerText = 'Minibar';    //ALTERAR ENTRE AS ASPAS
+        desc10.innerText = 'Internet';    //ALTERAR ENTRE AS ASPAS
         desc11.innerText = 'Limpieza';    //ALTERAR ENTRE AS ASPAS
-        desc12.innerText = 'WhatsApp';    //ALTERAR ENTRE AS ASPAS
-
-        desc13.innerText = 'Restaurante';    //ALTERAR ENTRE AS ASPAS
-        desc14.innerText = 'Programación';    //ALTERAR ENTRE AS ASPAS
-        desc15.innerText = 'Cómo llegar allí';    //ALTERAR ENTRE AS ASPAS
 
 
-        resgatar.innerText = 'rescate';    //ALTERAR ENTRE AS ASPAS
+        resgatar.innerText = 'reclamar';    //ALTERAR ENTRE AS ASPAS
         ganhoupresente.innerText = 'ganó un regalo!';    //ALTERAR ENTRE AS ASPAS
     }
 
@@ -162,6 +172,25 @@ function espanhol() {
         precisotoalha.innerText = 'Necesito Toallas';    //ALTERAR ENTRE AS ASPAS
     }
 
+    // POPUPS
+
+    const popup01title = document.getElementById('popuptitulotexto01')
+    const popup01text = document.getElementById('popuptexto01')
+
+    const popup02title = document.getElementById('popuptitulotexto02')
+    const popup02text = document.getElementById('popuptexto02')
+
+    const popup03title = document.getElementById('popuptitulotexto03')
+    const popup03text = document.getElementById('popuptexto03')
+
+    if (popup01title, popup01text, popup02title, popup02text, popup03title, popup03text) {
+        popup01title.innerText = 'MINIBAR';
+        popup01text.innerText = '4 aguas sin gas R$ 4,00 cada una';
+        popup02title.innerText = 'INTERNET';
+        popup02text.innerText = 'Red: Visual Praia Hotel | Contraseña: vphpraianatal';
+        popup03title.innerText = 'LIMPIEZA';
+        popup03text.innerText = 'Diariamente De 8:00 a 17:00';
+    }
 }
 
 function portugues() {
@@ -204,25 +233,20 @@ function portugues() {
         bemvindo.innerText = 'seja bem vindo!';    //ALTERAR ENTRE AS ASPAS
         cliqueabaixo.innerText = 'clique nos ícones abaixo';    //ALTERAR ENTRE AS ASPAS
 
-        desc1.innerText = 'Promoções';    //ALTERAR ENTRE AS ASPAS
+        desc1.innerText = 'Informações';    //ALTERAR ENTRE AS ASPAS
         desc2.innerText = 'Você Ganhou';    //ALTERAR ENTRE AS ASPAS
-        desc3.innerText = 'Gastronomia';    //ALTERAR ENTRE AS ASPAS
+        desc3.innerText = 'Horários';    //ALTERAR ENTRE AS ASPAS
 
-        desc4.innerText = 'Área de lazer';    //ALTERAR ENTRE AS ASPAS
-        desc5.innerText = 'Informações';    //ALTERAR ENTRE AS ASPAS
-        desc6.innerText = 'Lojinha';    //ALTERAR ENTRE AS ASPAS
+        desc4.innerText = 'Cardápio Room Service';    //ALTERAR ENTRE AS ASPAS
+        desc5.innerText = 'Cardápio Restaurante';    //ALTERAR ENTRE AS ASPAS
+        desc6.innerText = 'WhatsApp';    //ALTERAR ENTRE AS ASPAS
 
-        desc7.innerText = 'Passeio';    //ALTERAR ENTRE AS ASPAS
-        desc8.innerText = 'Cocierge';    //ALTERAR ENTRE AS ASPAS
-        desc9.innerText = 'Spotify';    //ALTERAR ENTRE AS ASPAS
+        desc7.innerText = 'Clima';    //ALTERAR ENTRE AS ASPAS
+        desc8.innerText = 'Reserva com desconto CUPOM: VISU2026';    //ALTERAR ENTRE AS ASPAS
+        desc9.innerText = 'Frigobar';    //ALTERAR ENTRE AS ASPAS
 
-        desc10.innerText = 'Frigobar';    //ALTERAR ENTRE AS ASPAS
+        desc10.innerText = 'Internet';    //ALTERAR ENTRE AS ASPAS
         desc11.innerText = 'Limpeza';    //ALTERAR ENTRE AS ASPAS
-        desc12.innerText = 'WhatsApp';    //ALTERAR ENTRE AS ASPAS
-
-        desc13.innerText = 'Restaurante';    //ALTERAR ENTRE AS ASPAS
-        desc14.innerText = 'Programação';    //ALTERAR ENTRE AS ASPAS
-        desc15.innerText = 'Como Chegar!';    //ALTERAR ENTRE AS ASPAS
 
         resgatar.innerText = 'resgatar';    //ALTERAR ENTRE AS ASPAS
         ganhoupresente.innerText = 'você ganhou um presente!';    //ALTERAR ENTRE AS ASPAS
@@ -244,14 +268,55 @@ function portugues() {
         precisotoalha.innerText = 'Preciso de Toalhas';    //ALTERAR ENTRE AS ASPAS
     }
 
+    // POPUPS
+
+    const popup01title = document.getElementById('popuptitulotexto01')
+    const popup01text = document.getElementById('popuptexto01')
+
+    const popup02title = document.getElementById('popuptitulotexto02')
+    const popup02text = document.getElementById('popuptexto02')
+
+    const popup03title = document.getElementById('popuptitulotexto03')
+    const popup03text = document.getElementById('popuptexto03')
+    
+    if (popup01title, popup01text, popup02title, popup02text, popup03title, popup03text) {
+        popup01title.innerText = 'FRIGOBAR';
+        popup01text.innerText = '4 águas sem gás R$ 4,00 cada';
+        popup02title.innerText = 'INTERNET';
+        popup02text.innerText = 'Rede: Visual Praia Hotel | Senha: vphpraianatal';
+        popup03title.innerText = 'LIMPEZA';
+        popup03text.innerText = 'Diariamente das 08h00 às 17h00';
+    }
 }
 
 // NÃO MEXER ABAIXO
 
 function fechar() {
     const popuppresente = document.getElementById('popuppresente');
+    const popup01 = document.getElementById('popup01');
+    const popup02 = document.getElementById('popup02');
+    const popup03 = document.getElementById('popup03');
     popuppresente.style.display = "none";
+    popup01.style.display = "none";
+    popup02.style.display = "none";
+    popup03.style.display = "none";
 }
+
+function abrir01() {
+    const popup01 = document.getElementById('popup01');
+    popup01.style.display = "flex";
+}
+
+function abrir02() {
+    const popup02 = document.getElementById('popup02');
+    popup02.style.display = "flex";
+}
+
+function abrir03() {
+    const popup03 = document.getElementById('popup03');
+    popup03.style.display = "flex";
+}
+
 
 
 document.addEventListener("DOMContentLoaded", function () {

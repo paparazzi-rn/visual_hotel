@@ -109,7 +109,7 @@ body {
 }
 
 #paparazzifotografia .icon {
-        animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
@@ -247,7 +247,7 @@ body {
     text-decoration: none;
 }
 
-.adminbotao a p{
+.adminbotao a p {
     font-size: 25pt;
     font-weight: bold;
 }
@@ -391,4 +391,90 @@ body {
     bottom: 30px;
     right: 30px;
 
+}
+
+#frigobar img {
+    padding: 10px;
+}
+
+.popupcontainer {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.300);
+}
+
+.popupcontent {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 600px;
+    background-color: var(--ter);
+    border-radius: 50px;
+    border-color: var(--pri);
+    border-style: solid;
+    padding: 30px;
+    gap: 30px;
+}
+
+.popupcontent img {
+    height: 150px;
+}
+
+.mpopupcontent p {
+    text-transform: uppercase;
+    font-size: 40pt;
+    font-weight: bold;
+    color: var(--pri);
+}
+
+.popuptitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: var(--pri);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.popuptitulo p {
+    margin: 0;
+    padding: 0;
+}
+
+.horariosinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-items: left;
+    text-align: left;
+    font-size: 20pt;
+    gap: 30px;
+}
+
+.horariosinfo p {
+    margin-top: 30px;
+    color: var(--pri);
+}
+
+.botaovoltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pri);
+    border-radius: 300px;
+    height: 100px;
+    width: 100px;
 }
