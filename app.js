@@ -52,7 +52,7 @@ function ingles() {
         desc9.innerText = 'Minibar';    //ALTERAR ENTRE AS ASPAS
 
         desc10.innerText = 'Internet';    //ALTERAR ENTRE AS ASPAS
-        desc11.innerText = 'Cleaning';    //ALTERAR ENTRE AS ASPAS
+        desc11.innerText = 'Tours Natal Vans';    //ALTERAR ENTRE AS ASPAS
 
         resgatar.innerText = 'rescue';    //ALTERAR ENTRE AS ASPAS
         ganhoupresente.innerText = 'you got a gift!';    //ALTERAR ENTRE AS ASPAS
@@ -149,7 +149,7 @@ function espanhol() {
         desc9.innerText = 'Minibar';    //ALTERAR ENTRE AS ASPAS
 
         desc10.innerText = 'Internet';    //ALTERAR ENTRE AS ASPAS
-        desc11.innerText = 'Limpieza';    //ALTERAR ENTRE AS ASPAS
+        desc11.innerText = 'Recorridos Natal Vans';    //ALTERAR ENTRE AS ASPAS
 
 
         resgatar.innerText = 'reclamar';    //ALTERAR ENTRE AS ASPAS
@@ -246,7 +246,7 @@ function portugues() {
         desc9.innerText = 'Frigobar';    //ALTERAR ENTRE AS ASPAS
 
         desc10.innerText = 'Internet';    //ALTERAR ENTRE AS ASPAS
-        desc11.innerText = 'Limpeza';    //ALTERAR ENTRE AS ASPAS
+        desc11.innerText = 'Passeio Natal Vans';    //ALTERAR ENTRE AS ASPAS
 
         resgatar.innerText = 'resgatar';    //ALTERAR ENTRE AS ASPAS
         ganhoupresente.innerText = 'você ganhou um presente!';    //ALTERAR ENTRE AS ASPAS
